@@ -10,25 +10,28 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:padding="10dp"
+        android:padding="10dp">
 
 
         <ImageView
             android:id="@+id/icon"
             android:layout_width="90dp"
             android:layout_height="90dp"
-            android:layout_marginleft="35dp"
+
             android:layout_marginTop="5dp"
-            android:src="@drawable/ic_launcher_background"/>
+            android:src="@drawable/icon1"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/icon"
-            android:layout_marginLeft="40dp"
+
             android:layout_marginTop="10dp"
             android:gravity="center"
             android:text="computer"
+            android:id="@+id/name_text_view"
             android:textStyle="bold"/>
+
+    </RelativeLayout>
 
 
 </androidx.cardview.widget.CardView>
