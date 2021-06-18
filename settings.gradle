@@ -1,0 +1,2 @@
+rootProject.name = "modul11_GridView"
+include ':app'
